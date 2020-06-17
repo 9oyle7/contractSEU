@@ -1,0 +1,75 @@
+body {
+  font-family: 'Almarai';
+  color: #ffffff;
+  /* background-image: url(/img/background.jpg); */
+  background: #eeee;
+}
+.header {
+  background: #006064;
+}
+.header a {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  .header a img {
+    width: 300px;
+  }
+}
+@media (max-width: 576px) {  
+  .header a img {
+    width: 300px;
+  }
+}
+/*from  Small devices to up (landscape phones, 576px and up) */
+@media (min-width: 768px) {  
+  .header a img {
+    width: 400px;
+  }
+}
+.icons {
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+.content-icons {
+  width: 100%;
+}
+.content-icons a {
+  color: #006064;
+}
+.content-icons a:hover {
+  color: #023e41;
+}
+
+
+/* content */
+.content {
+  color: #006064;
+  margin-bottom: 10%;
+}
+.content .title h1 {
+  color: #0e0e0e;
+  font-weight: bold;
+}
+.content a h3 {
+  background-color: #e6e6e6;
+  padding: 20px;
+  color: #006064;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.content a h3:hover {
+  background-color: #cecece;
+  color: #008388;
+  transition: 0.5s;
+}
+.content a:hover {
+  text-decoration: none;
+}
+.table thead th {
+  vertical-align: bottom;
+  background-color: #087377;
+  color: #ffffff;
+}
+
